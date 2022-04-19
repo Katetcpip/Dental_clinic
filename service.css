@@ -430,14 +430,15 @@
 
 @media (max-width: 600px) {
     .body {
-        max-width: 600px;
+        width: 600px;
     }
     .header {
         height: 115px;
+        width: 600px;
     }
     .container {
         height: 100%;
-        max-width: 500px;
+        width: 500px;
     }
     .descr {
         display: flex;
@@ -539,6 +540,7 @@
     .last {
         height: 100%;
         margin-top: 0px;
+        width: 600px;
     }
     .head2 {
         text-align: center;

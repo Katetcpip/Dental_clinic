@@ -489,6 +489,9 @@
     .docs {
         width: 600px;
     }
+    .last12 {
+        width: 40%;
+    }
 }
 
 @media (max-width: 400px) {
