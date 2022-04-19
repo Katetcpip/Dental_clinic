@@ -659,6 +659,9 @@
     .rewiews {
         width: 100%;
     }
+    .text2 {
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 400px) {

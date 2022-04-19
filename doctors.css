@@ -370,6 +370,9 @@
         flex-wrap: wrap;
         flex-direction: row;
     }
+    .text2 {
+        font-size: 40px;
+    }
     .descr2 {
         display: flex;
         justify-content: flex-start;
