@@ -519,7 +519,7 @@
     }
     .header {
         height: 115px;
-        width: 600px;
+        width: 100%;
     }
     .container {
         height: 100%;
@@ -625,7 +625,7 @@
     .last {
         height: 100%;
         margin-top: 0px;
-        width: 600px;
+        width: 100%;
     }
     .head2 {
         text-align: center;
