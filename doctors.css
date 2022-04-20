@@ -347,12 +347,9 @@
 }
 
 @media (max-width: 600px) {
-    .body {
-        width: 600px;
-    }
     .header {
         height: 115px;
-        width: 100%;
+        width: 600px;
     }
     .container {
         height: 100%;
@@ -458,7 +455,7 @@
     .last {
         height: 100%;
         margin-top: 0px;
-        width: 100%;
+        width: 600px;
     }
     .head2 {
         text-align: center;
@@ -492,21 +489,26 @@
     .last12 {
         width: 40%;
     }
+    .head2 {
+        font-size: 35px;
+    }
+    .text2 {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 400px) {
-    .body {
-        width: 400px;
-    }
     .header {
         height: 115px;
+        width: 400px;
     }
     .container {
         height: 100%;
         width: 300px;
     }
     .docs {
-        width: 100%;
+        width: 400px;
     }
     .descr {
         display: flex;
@@ -610,6 +612,7 @@
     .last {
         height: 100%;
         margin-top: 0px;
+        width: 400px;
     }
     .head2 {
         text-align: center;
@@ -636,5 +639,12 @@
     .service_price {
         margin: auto;
         margin-bottom: 10px;
+    }
+    .head2 {
+        font-size: 33px;
+    }
+    .text2 {
+        font-size: 13px;
+        margin-bottom: 30px;
     }
 }
