@@ -429,12 +429,9 @@
 }
 
 @media (max-width: 600px) {
-    .body {
-        width: 600px;
-    }
     .header {
         height: 115px;
-        width: 100%;
+        width: 600px;
     }
     .container {
         height: 100%;
@@ -462,6 +459,8 @@
     }
     .header_img {
         padding-left: 20px;
+        width: 600px;
+        box-sizing: border-box;
         background-image: linear-gradient(rgba(143, 192, 242, 0.354), rgba(255, 255, 255, 0.76)), url(img/background-1.png);
     }
     .goods {
@@ -540,13 +539,24 @@
     .last {
         height: 100%;
         margin-top: 0px;
-        width: 100%;
+        width: 600px;
     }
     .head2 {
         text-align: center;
     }
     .karies {
         padding: 10px;
+        width: 600px;
+        box-sizing: border-box;
+    }
+    .head2 {
+        font-size: 35px;
+    }
+    .treatment {
+        font-size: 35px;
+        padding: 30px;
+        box-sizing: border-box;
+        width: 580px;
     }
     .main_karies {
         flex-direction: column;
@@ -562,11 +572,21 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        font-size: 40px;
+        font-size: 35px;
     }
     .service_price {
         margin: auto;
         margin-bottom: 10px;
+    }
+    .cont2 {
+        padding-left: 17px;
+        box-sizing: border-box;
+    }
+    .goods {
+        width: 600px;
+    }
+    .goodsc {
+        width: 600px;
     }
 }
 
