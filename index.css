@@ -520,7 +520,6 @@
     }
     .container {
         height: 100%;
-        width: 500px;
     }
     .descr {
         display: flex;
@@ -552,12 +551,20 @@
         padding-bottom: 10px;
     }
     .goodsc {
-        flex-direction: column;
+        overflow-x: scroll;
         height: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-left: 380px;
     }
     .small {
-        margin-bottom: 10px;
-        margin-top: 10px;
+        width: 200px;
+        margin: 20px;
+        padding-top: 30px;
+        padding-right: 70px;
+        padding-left: 10px;
+        box-sizing: border-box;
     }
     .img2 {
         height: 100%;
@@ -678,7 +685,6 @@
     }
     .container {
         height: 100%;
-        width: 300px;
     }
     .docs {
         width: 400px;
@@ -715,12 +721,20 @@
         padding-bottom: 10px;
     }
     .goodsc {
-        flex-direction: column;
+        overflow-x: scroll;
         height: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-left: 380px;
     }
     .small {
-        margin-bottom: 10px;
-        margin-top: 10px;
+        width: 200px;
+        margin: 20px;
+        padding-top: 30px;
+        padding-right: 70px;
+        padding-left: 10px;
+        box-sizing: border-box;
     }
     .img2 {
         height: 100%;
@@ -822,5 +836,9 @@
     }
     .rewiews {
         width: 400px;
+    }
+    .small {
+        width: 250px;
+        box-sizing: border-box;
     }
 }
