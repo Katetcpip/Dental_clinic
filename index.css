@@ -516,7 +516,6 @@
 @media (max-width: 600px) {
     .header {
         height: 115px;
-        width: 600px
     }
     .container {
         height: 100%;
@@ -568,7 +567,6 @@
     }
     .img2 {
         height: 100%;
-        width: 600px;
     }
     .about_text2 {
         padding: 20px;
@@ -594,7 +592,6 @@
     }
     .maps {
         height: 100%;
-        width: 600px;
     }
     .block {
         margin-bottom: 20px;
@@ -633,7 +630,6 @@
     .last {
         height: 100%;
         margin-top: 0px;
-        width: 600px;
     }
     .head2 {
         text-align: center;
@@ -662,16 +658,11 @@
         margin: auto;
         margin-bottom: 10px;
     }
-    .goods {
-        width: 600px;
-    }
     .rewiews {
-        width: 600px;
         padding: 50px;
         box-sizing: border-box;
     }
     .header_img {
-        width: 600px;
         box-sizing: border-box;
         padding-left: 40px;
         font-size: 35px;
@@ -681,13 +672,9 @@
 @media (max-width: 400px) {
     .header {
         height: 115px;
-        width: 400px;
     }
     .container {
         height: 100%;
-    }
-    .docs {
-        width: 400px;
     }
     .descr {
         display: flex;
@@ -716,7 +703,6 @@
     }
     .goods {
         height: 100%;
-        width: 400px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -738,7 +724,6 @@
     }
     .img2 {
         height: 100%;
-        width: 400px;
     }
     .about_text2 {
         padding: 20px;
@@ -762,7 +747,6 @@
     }
     .maps {
         height: 100%;
-        width: 400px;
     }
     .block {
         margin-bottom: 20px;
@@ -801,7 +785,6 @@
     }
     .last {
         height: 100%;
-        width: 400px;
         margin-top: 0px;
     }
     .head2 {
@@ -830,12 +813,6 @@
     .service_price {
         margin: auto;
         margin-bottom: 10px;
-    }
-    .header_img {
-        width: 400px;
-    }
-    .rewiews {
-        width: 400px;
     }
     .small {
         width: 250px;

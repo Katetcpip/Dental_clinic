@@ -349,7 +349,6 @@
 @media (max-width: 600px) {
     .header {
         height: 115px;
-        width: 600px;
     }
     .container {
         height: 100%;
@@ -455,7 +454,6 @@
     .last {
         height: 100%;
         margin-top: 0px;
-        width: 600px;
     }
     .head2 {
         text-align: center;
@@ -483,9 +481,6 @@
         margin: auto;
         margin-bottom: 10px;
     }
-    .docs {
-        width: 600px;
-    }
     .last12 {
         width: 40%;
     }
@@ -501,14 +496,10 @@
 @media (max-width: 400px) {
     .header {
         height: 115px;
-        width: 400px;
     }
     .container {
         height: 100%;
         width: 300px;
-    }
-    .docs {
-        width: 400px;
     }
     .descr {
         display: flex;
@@ -612,7 +603,6 @@
     .last {
         height: 100%;
         margin-top: 0px;
-        width: 400px;
     }
     .head2 {
         text-align: center;
